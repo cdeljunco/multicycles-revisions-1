@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{17}%
+\begin{thebibliography}{21}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -59,15 +59,57 @@
   \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Phanvijhitsiri}}, \ and\
   \bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont {Johnson}},\ }\href
   {\doibase 10.1016/J.CUB.2004.08.023} {\bibfield  {journal} {\bibinfo
-  {journal} {Current Biology}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo
-  {pages} {1481} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+  {journal} {Curr. Biol.}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages}
+  {1481} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nakajima}\ \emph {et~al.}(2005)\citenamefont
+  {Nakajima}, \citenamefont {Imai}, \citenamefont {Ito}, \citenamefont
+  {Nishiwaki}, \citenamefont {Murayama}, \citenamefont {Iwasaki}, \citenamefont
+  {Oyama},\ and\ \citenamefont {Kondo}}]{Nakajima2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Nakajima}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Imai}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ito}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Nishiwaki}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Murayama}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Iwasaki}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Oyama}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Kondo}},\ }\href {\doibase 10.1126/science.1108451}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {308}},\ \bibinfo {pages} {414} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tomita}\ \emph {et~al.}(2005)\citenamefont {Tomita},
+  \citenamefont {Nakajima}, \citenamefont {Kondo},\ and\ \citenamefont
+  {Iwasaki}}]{Tomita2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Tomita}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Nakajima}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kondo}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Iwasaki}},\ }\href {\doibase
+  10.1126/science.1102540} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {307}},\ \bibinfo {pages} {251}
+  (\bibinfo {year} {2005})},\ \Eprint
+  {http://arxiv.org/abs/https://science.sciencemag.org/content/307/5707/251.full.pdf}
+  {https://science.sciencemag.org/content/307/5707/251.full.pdf} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rust}\ \emph {et~al.}(2007)\citenamefont {Rust},
+  \citenamefont {Markson}, \citenamefont {Lane}, \citenamefont {Fisher},\ and\
+  \citenamefont {O'Shea}}]{Rust2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Rust}}, \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Markson}},
+  \bibinfo {author} {\bibfnamefont {W.~S.}\ \bibnamefont {Lane}}, \bibinfo
+  {author} {\bibfnamefont {D.~S.}\ \bibnamefont {Fisher}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {E.~K.}\ \bibnamefont {O'Shea}},\ }\href {\doibase
+  10.1126/science.1148596} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {318}},\ \bibinfo {pages} {809}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Barato}\ and\ \citenamefont
   {Seifert}(2015)}]{Barato2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
   {Barato}}\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
   {Seifert}},\ }\href {\doibase 10.1103/PhysRevLett.114.158101} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
   {volume} {114}},\ \bibinfo {pages} {158101} (\bibinfo {year}
   {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cao}\ \emph {et~al.}(2015)\citenamefont {Cao},
@@ -78,18 +120,18 @@
   {Cao}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Wang}}, \bibinfo
   {author} {\bibfnamefont {Q.}~\bibnamefont {Ouyang}}, \ and\ \bibinfo {author}
   {\bibfnamefont {Y.}~\bibnamefont {Tu}},\ }\href {\doibase 10.1038/nphys3412}
-  {\bibfield  {journal} {\bibinfo  {journal} {Nature Physics}\ }\textbf
-  {\bibinfo {volume} {11}},\ \bibinfo {pages} {772} (\bibinfo {year}
-  {2015})}\BibitemShut {NoStop}%
+  {\bibfield  {journal} {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo
+  {volume} {11}},\ \bibinfo {pages} {772} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Barato}\ and\ \citenamefont
   {Seifert}(2017)}]{Barato2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
   {Barato}}\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
   {Seifert}},\ }\href {\doibase 10.1103/PhysRevE.95.062409} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf {\bibinfo
-  {volume} {95}},\ \bibinfo {pages} {062409} (\bibinfo {year}
-  {2017})}\BibitemShut {NoStop}%
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {95}},\ \bibinfo {pages} {062409} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Fei}\ \emph {et~al.}(2018)\citenamefont {Fei},
   \citenamefont {Cao}, \citenamefont {Ouyang},\ and\ \citenamefont
   {Tu}}]{Fei2018}%
@@ -98,9 +140,9 @@
   {Fei}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Cao}}, \bibinfo
   {author} {\bibfnamefont {Q.}~\bibnamefont {Ouyang}}, \ and\ \bibinfo {author}
   {\bibfnamefont {Y.}~\bibnamefont {Tu}},\ }\href {\doibase
-  10.1038/s41467-018-03826-4} {\bibfield  {journal} {\bibinfo  {journal}
-  {Nature Communications}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages}
-  {1434} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+  10.1038/s41467-018-03826-4} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
+  Commun.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {1434}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wierenga}\ \emph {et~al.}(2018)\citenamefont
   {Wierenga}, \citenamefont {{Ten Wolde}},\ and\ \citenamefont
   {Becker}}]{Wierenga2018}%
@@ -109,9 +151,9 @@
   {Wierenga}}, \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont {{Ten
   Wolde}}}, \ and\ \bibinfo {author} {\bibfnamefont {N.~B.}\ \bibnamefont
   {Becker}},\ }\href {\doibase 10.1103/PhysRevE.97.042404} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf {\bibinfo
-  {volume} {97}},\ \bibinfo {pages} {042404} (\bibinfo {year}
-  {2018})}\BibitemShut {NoStop}%
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {97}},\ \bibinfo {pages} {042404} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Nguyen}\ \emph {et~al.}(2018)\citenamefont {Nguyen},
   \citenamefont {Seifert},\ and\ \citenamefont {Barato}}]{Nguyen2018}%
   \BibitemOpen
@@ -119,9 +161,8 @@
   {Nguyen}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Seifert}}, \
   and\ \bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont {Barato}},\
   }\href {\doibase 10.1063/1.5032104} {\bibfield  {journal} {\bibinfo
-  {journal} {The Journal of Chemical Physics}\ }\textbf {\bibinfo {volume}
-  {149}},\ \bibinfo {pages} {045101} (\bibinfo {year} {2018})}\BibitemShut
-  {NoStop}%
+  {journal} {J. Chem. Phys.}\ }\textbf {\bibinfo {volume} {149}},\ \bibinfo
+  {pages} {045101} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marsland}\ \emph {et~al.}(2019)\citenamefont
   {Marsland}, \citenamefont {Cui},\ and\ \citenamefont
   {Horowitz}}]{Marsland2019}%
@@ -130,9 +171,8 @@
   {Marsland}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Cui}}, \
   and\ \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Horowitz}},\
   }\href {\doibase 10.1098/rsif.2019.0098} {\bibfield  {journal} {\bibinfo
-  {journal} {Journal of The Royal Society Interface}\ }\textbf {\bibinfo
-  {volume} {16}},\ \bibinfo {pages} {20190098} (\bibinfo {year}
-  {2019})}\BibitemShut {NoStop}%
+  {journal} {J. R. Soc. Interface}\ }\textbf {\bibinfo {volume} {16}},\
+  \bibinfo {pages} {20190098} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {del Junco}\ and\ \citenamefont
   {Vaikuntanathan}(2018)}]{DelJunco2018b}%
   \BibitemOpen
@@ -141,6 +181,14 @@
   {Vaikuntanathan}},\ }\href {http://arxiv.org/abs/1808.04914} {\  (\bibinfo
   {year} {2018})},\ \Eprint {http://arxiv.org/abs/1808.04914}
   {arXiv:1808.04914} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nov{\'{a}}k}\ and\ \citenamefont
+  {Tyson}(2008)}]{Novak2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Nov{\'{a}}k}}\ and\ \bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Tyson}},\ }\href {\doibase 10.1038/nrm2530} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Rev. Mol. Cell Biol.}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {981} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{Note1()}]{Note1}%
   \BibitemOpen
   \bibinfo {note} {In refs.~\protect \citenum {DelJunco2018b} and \protect
@@ -157,9 +205,8 @@
   {Murugan}}, \bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont {Huse}}, \
   and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Leibler}},\ }\href
   {\doibase 10.1073/pnas.1119911109} {\bibfield  {journal} {\bibinfo  {journal}
-  {Proceedings of the National Academy of Sciences of the United States of
-  America}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo {pages} {12034}
-  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+  {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume} {109}},\
+  \bibinfo {pages} {12034} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Budnar}\ \emph {et~al.}(2019)\citenamefont {Budnar},
   \citenamefont {Husain}, \citenamefont {Gomez}, \citenamefont {Naghibosadat},
   \citenamefont {Varma}, \citenamefont {Verma}, \citenamefont {Hamilton},
@@ -174,9 +221,9 @@
   \bibnamefont {Hamilton}}, \bibinfo {author} {\bibfnamefont {R.~G.}\
   \bibnamefont {Morris}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~S.}\
   \bibnamefont {Yap}},\ }\href {\doibase 10.1016/J.DEVCEL.2019.04.031}
-  {\bibfield  {journal} {\bibinfo  {journal} {Developmental Cell}\ }\textbf
-  {\bibinfo {volume} {49}},\ \bibinfo {pages} {894} (\bibinfo {year}
-  {2019})}\BibitemShut {NoStop}%
+  {\bibfield  {journal} {\bibinfo  {journal} {Dev. Cell}\ }\textbf {\bibinfo
+  {volume} {49}},\ \bibinfo {pages} {894} (\bibinfo {year} {2019})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Pittayakanchit}\ \emph {et~al.}(2018)\citenamefont
   {Pittayakanchit}, \citenamefont {Lu}, \citenamefont {Chew}, \citenamefont
   {Rust},\ and\ \citenamefont {Murugan}}]{Pittayakanchit2018}%
@@ -186,7 +233,7 @@
   \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Chew}}, \bibinfo {author}
   {\bibfnamefont {M.~J.}\ \bibnamefont {Rust}}, \ and\ \bibinfo {author}
   {\bibfnamefont {A.}~\bibnamefont {Murugan}},\ }\href {\doibase
-  10.7554/eLife.37624} {\bibfield  {journal} {\bibinfo  {journal} {eLife}\
+  10.7554/eLife.37624} {\bibfield  {journal} {\bibinfo  {journal} {Elife}\
   }\textbf {\bibinfo {volume} {7}} (\bibinfo {year} {2018}),\
   10.7554/eLife.37624}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Johnson}\ \emph {et~al.}(2011)\citenamefont
@@ -197,9 +244,9 @@
   {Johnson}}, \bibinfo {author} {\bibfnamefont {P.~L.}\ \bibnamefont
   {Stewart}}, \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {Egli}},\ }\href {\doibase 10.1146/annurev-biophys-042910-155317} {\bibfield
-  {journal} {\bibinfo  {journal} {Annual review of biophysics}\ }\textbf
-  {\bibinfo {volume} {40}},\ \bibinfo {pages} {143} (\bibinfo {year}
-  {2011})}\BibitemShut {NoStop}%
+  {journal} {\bibinfo  {journal} {Annu. Rev. Biophys.}\ }\textbf {\bibinfo
+  {volume} {40}},\ \bibinfo {pages} {143} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Fran{\c{c}}ois}\ \emph {et~al.}(2012)\citenamefont
   {Fran{\c{c}}ois}, \citenamefont {Despierre},\ and\ \citenamefont
   {Siggia}}]{Francois2012}%
@@ -208,8 +255,8 @@
   {Fran{\c{c}}ois}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
   {Despierre}}, \ and\ \bibinfo {author} {\bibfnamefont {E.~D.}\ \bibnamefont
   {Siggia}},\ }\href {\doibase 10.1371/journal.pcbi.1002585} {\bibfield
-  {journal} {\bibinfo  {journal} {PLoS Computational Biology}\ }\textbf
-  {\bibinfo {volume} {8}},\ \bibinfo {pages} {e1002585} (\bibinfo {year}
+  {journal} {\bibinfo  {journal} {PLoS Comput. Biol.}\ }\textbf {\bibinfo
+  {volume} {8}},\ \bibinfo {pages} {e1002585} (\bibinfo {year}
   {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Paijmans}\ \emph {et~al.}(2017)\citenamefont
   {Paijmans}, \citenamefont {Lubensky},\ and\ \citenamefont {ten
@@ -219,16 +266,16 @@
   {Paijmans}}, \bibinfo {author} {\bibfnamefont {D.~K.}\ \bibnamefont
   {Lubensky}}, \ and\ \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
   {ten Wolde}},\ }\href {\doibase 10.1016/J.BPJ.2017.05.048} {\bibfield
-  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo
-  {volume} {113}},\ \bibinfo {pages} {157} (\bibinfo {year}
-  {2017})}\BibitemShut {NoStop}%
+  {journal} {\bibinfo  {journal} {Biophys. J.}\ }\textbf {\bibinfo {volume}
+  {113}},\ \bibinfo {pages} {157} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Hatakeyama}\ and\ \citenamefont
   {Kaneko}(2015)}]{Hatakeyama2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
   {Hatakeyama}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
   {Kaneko}},\ }\href {\doibase 10.1103/PhysRevLett.115.218101} {\bibfield
-  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
   {volume} {115}},\ \bibinfo {pages} {218101} (\bibinfo {year}
   {2015})}\BibitemShut {NoStop}%
 \end{thebibliography}%

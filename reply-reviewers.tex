@@ -23,11 +23,8 @@
 
 \vspace{1cm}
 
-Thank you for taking the time to carefully read our manuscript and for your thoughtful comments and criticisms. Please find below a summary of the revisions we have made, including revised figures, followed by a detailed response to each of your reviews.
+Thank you for taking the time to carefully read our manuscript and for your thoughtful comments and criticisms. To summarize the revisions we have made: we have added a section to the manuscript that describes in more detail the models that we use and why we, and others in the literature (barato and seifert) believe them to be good representations of oscillator dynamics for our purposes. We have also clarified terms which we realize were poorly defined, such as ``robustness". Please find below a detailed response to each of your reviews. We hope that with these changes you will find the work suitable for publication in JCP.
 
-\section*{Summary of changes}
-
-\pagebreak
 
 \section*{Point-by-point reply}
 
@@ -35,7 +32,14 @@ The referee's comments are copied in italics, with our responses below.
 
 \subsection*{Referee 1}
 
-\textit{ This is a paper of prime scientific quality that addresses the robustness of oscillations in cyclical reaction networks that are decorated by arbitrary side cycles. The work is solid and beyond scientific reproach (and hence I placed it as the ``top 5\%"), but there is an issue with the presentation: Do the authors really think JCP is the right venue for this article? It is way too specialized to be understood by even a small fraction of JCP readers. I have 3 decades of experience as a quantum chemical physics scientists and I had tremendous difficulty reading the paper due to the very specialized jargon (had to read certain passages times and time again, and to make things worse, many symbols in equations are not even defined in the text (some are defined only in figure captions) - to fully appreciate the paper one has to really read the previous paper from the authors' lab (and I did not have the time, unfortunately, to do so). A concrete application to a biochemical cycle would also be highly recommended.}
+\textit{This is a paper of prime scientific quality that addresses the robustness of oscillations in cyclical reaction networks that are decorated by arbitrary side cycles. The work is solid and beyond scientific reproach (and hence I placed it as the ``top 5\%"), but there is an issue with the presentation: Do the authors really think JCP is the right venue for this article? It is way too specialized to be understood by even a small fraction of JCP readers. I have 3 decades of experience as a quantum chemical physics scientists and I had tremendous difficulty reading the paper due to the very specialized jargon (had to read certain passages times and time again, and to make things worse, many symbols in equations are not even defined in the text (some are defined only in figure captions) - to fully appreciate the paper one has to really read the previous paper from the authors' lab (and I did not have the time, unfortunately, to do so). A concrete application to a biochemical cycle would also be highly recommended.}
+
+%talk about KaiABC here as a "concrete application" - will need to say what the side cycles are... also mention we are working on more concrete connection?
+%terms to define more clearly: "robustness" (also per ref 2), "robust oscillations", "coherence of oscillations", "energy dissipation", "stochastic environment", ...
+
+Thanks for your high estimation of the quality of our work. To make the work more accessible to the broader JCP readership, we have added a new section (``Markov state models of biochemical oscillators") in which we give more detail about the sense in which the models we consider represent biochemical oscillators as well as providing a specific example of an oscillator, and clearly define the various terms and observables related to these models that we deal with in the paper, such as ``robustness", ``affinity", ``coherence", and so forth. We have also carefully gone through the manuscript and made sure that we have defined symbols and described our methods for generating the data in all of our figures, in the text and not only in the figure captions. We hope that with these clarifications the manuscript appropriate for publication in JCP.
+
+%just editing apart from the concrete application question
 
 \subsection*{Referee 2}
 
@@ -43,19 +47,34 @@ The referee's comments are copied in italics, with our responses below.
 
 \textit{i) On the basis of Eqs (4)-(6) - already derived in a preceding work and valid at large affinities-one clearly understands that ``the rates decouple from each other and only contribute additively to the timescales". The authors claim that, as a result, "the farther an oscillator operates from equilibrium, the more robust it will be to fluctuations in the rates ". I do not see how this last statement follows from the previous one. It would do so, if they showed that the coupling between the heterogenous rates always increases in modulus $C \gamma$. Can this be seen from the derivation of Eqs (4)-(6)?}
 
+Thanks for raising this point, which arises from our unclear definition of ``robustness". You reasonably assumed that robustness meant a smaller deviation of the observables from the uniform case.  In fact, it is not obvious from Eqs (4)-(6), as far as we have been able to tell, that coupling between the heterogenous rates always increases $|C \gamma|$. However, we intended a different definition of robustness: a more robust network is one in which the period and coherence change less when some details of the network are changed, in particular the arrangement of the rates. We have clarified this in a section that we added to the manuscript titled ``Markov state models of biochemical oscillators" in which we also give more details about the model and terminology used in the paper.
+
+%not sure I understand the question: is it asking if C\gamma always increases when the rates are coupled to one another? Note that this is not our definition of robustness. If we clearly define robustness it will be easy to answer this.  I don't think, in fact, that C\gamma always increases with coupling. 
+
 \textit{ii) The authors refer several time to the robustness of oscillations without defining it precisely. This leaves room to objections to their statement that higher affinity brings higher robustness. For example, we could require that the number of coherent oscillations $R$ decreases the least possible with respect to its value $R_0$ in the homogeneous (unicycle) case. If so, from Fig. 3 (lower left panel) we see that the lower affinity gives the highest $R/R_0$, i.e. it is actually the most robust condition. The same can be concluded looking at the exact values of $R$ in Fig. 4.
 The authors should thus specify which notion of robustness they are considering to make their statement sound.}
 
+As mentioned above, we have now explicitly defined robustness at the beginning of the paper. We hope this clarifies our statements.
+
+%more clearly define robustness
+
 \textit{iii) The terminology employed in the conclusion is somewhat unclear. A net variation in the affinity is called ``long-lived, global rate fluctuations". However, the ``quenched disorder" in the rates could already by described as `long-lived and global'. The authors maybe mean that a variation in affinity represents extrinsic or environmental noise, while 'local' inhomogeneities in the rates effectively describe intrinsic noise?}
+
+We have changed our language to clarify that we mean, on the one hand, randomness in the rates that preserves the average affinity, and on the other, changes in the affinity such that all of the rates either increase or decrease.
+
+%seems like yes
 
 \textit{iv) Clearly, a stochastic chemical reaction network is different from the Markov chain considered by the authors. In particular, since the dynamics is ruled by the Chemical Master Equation, the transition rates (with e.g. mass action kinetics) are state dependent, in general, and not constant.
 Therefore, the present model should be seen as an abstract one to describe chemistry. In which sense is this an effective description? What kind of relation is there between the real chemical affinity (i.e. the difference in nonequilibrium free energy) and the present affinity?
 All in all, should the effects observed for this Markov chain carry over to chemical reaction networks with mass action kinetics?}
 
+As we now describe in the paper, the Markov models that we consider represent the emergent behavior of the system that takes in to account mass action kinetics implicitly.  In this model, each vertex represents a collective state of a system. The rates along each of the edges represent the rates of elementary processes, like a phosphorylation event. This picture is thus not a representation of the underlying chemical reaction network which must contain, at a minimum, a negative feedback loop, and may also have other motifs. Rather, it is an emergent picture that captures the oscillations that can arise from such a network, and the feedback as well as mass action kinetics are is encoded in the rates along each edge, which depend on the collective state of the system represented by the connected vertices. The chemical affinity over a cycle would be given by the net turnover of ATP that occurs over one cycle; individual steps in the cycle are made (more or less) irreversible by coupling to ATP hydrolysis. The question, then, of to what extent this is an effective description depends on whether reaction networks that produce oscillations generate Markov models with topology similar to what we consider in this work. We are currently investigating this using a detailed computational model of KaiC as an example, and our preliminary results suggest that simulations of that model can indeed be projected on to cycles such as the ones we study here.
 
-\textit{Typos:
-"...R and T change by only a small fraction as ? in turned on..." -> "...is turned on..."
-"...high energy dissipation makes these observables insensitive tomany parameters" -> "...to many..."}
+\textit{Typos: \\
+``...R and T change by only a small fraction as $\mu$ in turned on..." $\to$ ``...is turned on..." \\
+``...high energy dissipation makes these observables insensitive tomany parameters" $\to$ ``...to many..."}
+
+Thanks for noticing these typos. We have corrected them.
 
 
 

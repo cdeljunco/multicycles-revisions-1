@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: apsrev4-1.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -10,7 +10,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: mainNotes.bib
-Database file #2: /Users/claradeljunco/Documents/library.bib.bib
+Database file #2: /Users/claradeljuncooffice/Dropbox/Papers/my-library.bib.bib
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -24,45 +24,45 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--missing journal in DelJunco2018b
-You've used 19 entries,
+You've used 23 entries,
             5847 wiz_defined-function locations,
-            1774 strings with 19871 characters,
-and the built_in function-call counts, 17682 in all, are:
-= -- 1094
-> -- 476
-< -- 138
-+ -- 151
-- -- 129
-* -- 2769
-:= -- 1702
-add.period$ -- 17
-call.type$ -- 19
-change.case$ -- 69
-chr.to.int$ -- 27
-cite$ -- 20
-duplicate$ -- 1656
-empty$ -- 1246
-format.name$ -- 276
-if$ -- 3471
+            1816 strings with 21051 characters,
+and the built_in function-call counts, 22311 in all, are:
+= -- 1362
+> -- 629
+< -- 170
++ -- 197
+- -- 167
+* -- 3548
+:= -- 2131
+add.period$ -- 21
+call.type$ -- 23
+change.case$ -- 85
+chr.to.int$ -- 31
+cite$ -- 24
+duplicate$ -- 2082
+empty$ -- 1580
+format.name$ -- 366
+if$ -- 4397
 int.to.chr$ -- 1
-int.to.str$ -- 26
-missing$ -- 225
-newline$ -- 103
-num.names$ -- 48
-pop$ -- 700
+int.to.str$ -- 30
+missing$ -- 280
+newline$ -- 115
+num.names$ -- 60
+pop$ -- 868
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 104
 quote$ -- 0
-skip$ -- 636
+skip$ -- 789
 stack$ -- 0
-substring$ -- 459
-swap$ -- 1579
-text.length$ -- 55
+substring$ -- 551
+swap$ -- 2012
+text.length$ -- 74
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 254
+type$ -- 317
 warning$ -- 2
-while$ -- 55
+while$ -- 67
 width$ -- 0
-write$ -- 184
+write$ -- 217
 (There were 2 warnings)
