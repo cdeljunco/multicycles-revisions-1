@@ -23,8 +23,7 @@
 
 \vspace{1cm}
 
-Thank you for taking the time to carefully read our manuscript and for your thoughtful comments and criticisms. To summarize the revisions we have made: we have added a section to the manuscript that describes in more detail the models that we use and why we, and others in the literature (barato and seifert) believe them to be good representations of oscillator dynamics for our purposes. We have also clarified terms which we realize were poorly defined, such as ``robustness". Please find below a detailed response to each of your reviews. We hope that with these changes you will find the work suitable for publication in JCP.
-
+Thank you for taking the time to carefully read our manuscript and for your thoughtful comments and criticisms. The main revision we have made is to add a section to the paper (``Markov state models of biochemical oscillators") that describes in more detail the models that we use and why we, and others in the literature~\cite{Barato2017}, believe them to be good representations of oscillator dynamics for our purposes. We have also clarified terms which we realized were poorly defined, such as ``robustness". Please find below a detailed response to each of your reviews. We hope that with these changes you will recommend the work for publication in JCP.
 
 \section*{Point-by-point reply}
 
@@ -34,41 +33,33 @@ The referee's comments are copied in italics, with our responses below.
 
 \textit{This is a paper of prime scientific quality that addresses the robustness of oscillations in cyclical reaction networks that are decorated by arbitrary side cycles. The work is solid and beyond scientific reproach (and hence I placed it as the ``top 5\%"), but there is an issue with the presentation: Do the authors really think JCP is the right venue for this article? It is way too specialized to be understood by even a small fraction of JCP readers. I have 3 decades of experience as a quantum chemical physics scientists and I had tremendous difficulty reading the paper due to the very specialized jargon (had to read certain passages times and time again, and to make things worse, many symbols in equations are not even defined in the text (some are defined only in figure captions) - to fully appreciate the paper one has to really read the previous paper from the authors' lab (and I did not have the time, unfortunately, to do so). A concrete application to a biochemical cycle would also be highly recommended.}
 
-%talk about KaiABC here as a "concrete application" - will need to say what the side cycles are... also mention we are working on more concrete connection?
-%terms to define more clearly: "robustness" (also per ref 2), "robust oscillations", "coherence of oscillations", "energy dissipation", "stochastic environment", ...
+Thanks for your high estimation of the quality of our work. To make the work more accessible to the broader JCP readership, we have added a new section (``Markov state models of biochemical oscillators") in which we (a) give more detail about how the models we consider represent biochemical oscillators, (b) provide a specific example of an oscillator, and (c) clearly define the various terms and observables related to these models that we deal with in the paper, such as ``robustness", ``affinity", ``coherence", and so forth. We have also carefully gone through the manuscript and made sure that we have defined symbols and described our methods for generating the data in all of our figures. We hope that with these clarifications the manuscript is appropriate for publication in JCP.
 
-Thanks for your high estimation of the quality of our work. To make the work more accessible to the broader JCP readership, we have added a new section (``Markov state models of biochemical oscillators") in which we give more detail about the sense in which the models we consider represent biochemical oscillators as well as providing a specific example of an oscillator, and clearly define the various terms and observables related to these models that we deal with in the paper, such as ``robustness", ``affinity", ``coherence", and so forth. We have also carefully gone through the manuscript and made sure that we have defined symbols and described our methods for generating the data in all of our figures, in the text and not only in the figure captions. We hope that with these clarifications the manuscript appropriate for publication in JCP.
-
-%just editing apart from the concrete application question
 
 \subsection*{Referee 2}
 
 \textit{In ``Robust oscillations in multi-cyclic models of biochemical clocks" the authors analyze the number and period of coherent oscillations in a continuous-time Markov chain without detailed balance. They build on a previous recent work where analytical expressions for these quantities where derived in the case of a unicycle chain very far from equilibrium. In the present manuscript they study the modifications induced by adding side cycles-on top of randomizing the transition rates-applying a coarse-graining procedure that leads them back to the unicycle case. The work is interesting, and well-written in places, and the theoretical/numerical results look solid. Nevertheless, I would appreciate the authors to address the following questions to help me pronouncing on the overall validity and relevance of the manuscript.}
 
-\textit{i) On the basis of Eqs (4)-(6) - already derived in a preceding work and valid at large affinities-one clearly understands that ``the rates decouple from each other and only contribute additively to the timescales". The authors claim that, as a result, "the farther an oscillator operates from equilibrium, the more robust it will be to fluctuations in the rates ". I do not see how this last statement follows from the previous one. It would do so, if they showed that the coupling between the heterogenous rates always increases in modulus $C \gamma$. Can this be seen from the derivation of Eqs (4)-(6)?}
+\textit{i) On the basis of Eqs (4)-(6) - already derived in a preceding work and valid at large affinities-one clearly understands that ``the rates decouple from each other and only contribute additively to the timescales". The authors claim that, as a result, ``the farther an oscillator operates from equilibrium, the more robust it will be to fluctuations in the rates ". I do not see how this last statement follows from the previous one. It would do so, if they showed that the coupling between the heterogenous rates always increases in modulus $C \gamma$. Can this be seen from the derivation of Eqs (4)-(6)?}
 
-Thanks for raising this point, which arises from our unclear definition of ``robustness". You reasonably assumed that robustness meant a smaller deviation of the observables from the uniform case.  In fact, it is not obvious from Eqs (4)-(6), as far as we have been able to tell, that coupling between the heterogenous rates always increases $|C \gamma|$. However, we intended a different definition of robustness: a more robust network is one in which the period and coherence change less when some details of the network are changed, in particular the arrangement of the rates. We have clarified this in a section that we added to the manuscript titled ``Markov state models of biochemical oscillators" in which we also give more details about the model and terminology used in the paper.
-
-%not sure I understand the question: is it asking if C\gamma always increases when the rates are coupled to one another? Note that this is not our definition of robustness. If we clearly define robustness it will be easy to answer this.  I don't think, in fact, that C\gamma always increases with coupling. 
+Thanks for raising this point, which arises from our unclear definition of ``robustness". It appears that you reasonably assumed that by robustness we meant a smaller deviation of the observables from the uniform case, i.e., smaller $|C \gamma|$.  In fact, it is not obvious from Eqs (4)-(6), as far as we have been able to tell, that coupling between the heterogenous rates always increases $|C \gamma|$. However, we intended a different definition of robustness: a more robust network is one in which the period and coherence change less when some details of the network are changed, specifically the arrangement of the rates. We have clarified this in a section that we added to the manuscript titled ``Markov state models of biochemical oscillators" in which we also give more details about the model and terminology used in the paper. Since the expressions in Eqs.~4 - 6 contain no spatial correlations between rates, changing the arrangement of the rates will not change $|C \gamma|$ and the oscillator is ``robust" at high affinity. A scenario in which the values of the rates change but the distribution from which they are drawn stays the same (i.e., the rates fluctuate) can be roughly thought of as a rearrangement, and hence the oscillator is also more robust to fluctuations. We have edited and clarified our language around ``robustness" and ``fluctuations" so that our claims are clear and made the latter point more explicit in the manuscript.
 
 \textit{ii) The authors refer several time to the robustness of oscillations without defining it precisely. This leaves room to objections to their statement that higher affinity brings higher robustness. For example, we could require that the number of coherent oscillations $R$ decreases the least possible with respect to its value $R_0$ in the homogeneous (unicycle) case. If so, from Fig. 3 (lower left panel) we see that the lower affinity gives the highest $R/R_0$, i.e. it is actually the most robust condition. The same can be concluded looking at the exact values of $R$ in Fig. 4.
 The authors should thus specify which notion of robustness they are considering to make their statement sound.}
 
 As mentioned above, we have now explicitly defined robustness at the beginning of the paper. We hope this clarifies our statements.
 
-%more clearly define robustness
-
 \textit{iii) The terminology employed in the conclusion is somewhat unclear. A net variation in the affinity is called ``long-lived, global rate fluctuations". However, the ``quenched disorder" in the rates could already by described as `long-lived and global'. The authors maybe mean that a variation in affinity represents extrinsic or environmental noise, while 'local' inhomogeneities in the rates effectively describe intrinsic noise?}
 
-We have changed our language to clarify that we mean, on the one hand, randomness in the rates that preserves the average affinity, and on the other, changes in the affinity such that all of the rates either increase or decrease.
-
-%seems like yes
+We have changed our language in the conclusion to clarify that we mean, on the one hand, randomness in the rates that preserves the average affinity, and on the other, changes in the affinity such that all of the rates either increase or decrease.
 
 \textit{iv) Clearly, a stochastic chemical reaction network is different from the Markov chain considered by the authors. In particular, since the dynamics is ruled by the Chemical Master Equation, the transition rates (with e.g. mass action kinetics) are state dependent, in general, and not constant.
 Therefore, the present model should be seen as an abstract one to describe chemistry. In which sense is this an effective description? What kind of relation is there between the real chemical affinity (i.e. the difference in nonequilibrium free energy) and the present affinity?
 All in all, should the effects observed for this Markov chain carry over to chemical reaction networks with mass action kinetics?}
 
-As we now describe in the paper, the Markov models that we consider represent the emergent behavior of the system that takes in to account mass action kinetics implicitly.  In this model, each vertex represents a collective state of a system. The rates along each of the edges represent the rates of elementary processes, like a phosphorylation event. This picture is thus not a representation of the underlying chemical reaction network which must contain, at a minimum, a negative feedback loop, and may also have other motifs. Rather, it is an emergent picture that captures the oscillations that can arise from such a network, and the feedback as well as mass action kinetics are is encoded in the rates along each edge, which depend on the collective state of the system represented by the connected vertices. The chemical affinity over a cycle would be given by the net turnover of ATP that occurs over one cycle; individual steps in the cycle are made (more or less) irreversible by coupling to ATP hydrolysis. The question, then, of to what extent this is an effective description depends on whether reaction networks that produce oscillations generate Markov models with topology similar to what we consider in this work. We are currently investigating this using a detailed computational model of KaiC as an example, and our preliminary results suggest that simulations of that model can indeed be projected on to cycles such as the ones we study here.
+As we now describe in the revised version of our paper, the Markov models that we consider represent the emergent behavior of a chemical reaction network that generates oscillations, and takes in to account mass action kinetics implicitly. In these models, each vertex represents a collective state of the system. The rates along each of the edges represent the rates of a reaction such as KaiA-KaiC binding. These rates depend on the states of the system represented by the connected vertices which encode the concentrations of all species, and therefore take into account mass action kinetics. In other words, two transitions at different locations in the cycle may be KaiA-KaiC binding events, but will have different rates since the binding rate depends on the concentration of free KaiA in the system which may be different in the different states~\cite{Paijmans2017}. The chemical affinity over a cycle is given by the net turnover of ATP that occurs over one cycle; individual steps in the cycle are made (more or less) irreversible by coupling to ATP hydrolysis. 
+
+To what extent this is an effective description then depends on whether reaction networks that produce oscillations generate Markov models with topology similar to what we consider in this work. This is an important question which has not to our knowledge thus far been properly investigated despite the use of such models to derive analytical results related to the thermodynamic properties of biochemical oscillators~\cite{Barato2017}. We are currently investigating this question using a detailed computational model of KaiC as an starting point~\cite{Paijmans2017}, and our preliminary results suggest that simulations of that model can indeed be projected on to cycles such as the ones we study here, and that the rates that emerge can be well-characterized as random variables with some spatial correlations.
 
 \textit{Typos: \\
 ``...R and T change by only a small fraction as $\mu$ in turned on..." $\to$ ``...is turned on..." \\
@@ -76,9 +67,7 @@ As we now describe in the paper, the Markov models that we consider represent th
 
 Thanks for noticing these typos. We have corrected them.
 
-
-
-\vspace{2cm}
+\vspace{1cm}
 \noindent Regards,
 \vspace{1cm}
 
@@ -86,7 +75,82 @@ Thanks for noticing these typos. We have corrected them.
 
 \noindent Clara del Junco
 
+%\bibliography{/Users/claradeljuncooffice/Dropbox/Papers/my-library.bib}
 
-%\bibliography{/Users/claradeljuncooffice/Documents/library.bib}
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{2}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Barato}\ and\ \citenamefont
+  {Seifert}(2017)}]{Barato2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
+  {Barato}}\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Seifert}},\ }\href {\doibase 10.1103/PhysRevE.95.062409} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
+  {95}},\ \bibinfo {pages} {062409} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Paijmans}\ \emph {et~al.}(2017)\citenamefont
+  {Paijmans}, \citenamefont {Lubensky},\ and\ \citenamefont {ten
+  Wolde}}]{Paijmans2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Paijmans}}, \bibinfo {author} {\bibfnamefont {D.~K.}\ \bibnamefont
+  {Lubensky}}, \ and\ \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
+  {ten Wolde}},\ }\href {\doibase 10.1016/J.BPJ.2017.05.048} {\bibfield
+  {journal} {\bibinfo  {journal} {Biophys. J.}\ }\textbf {\bibinfo {volume}
+  {113}},\ \bibinfo {pages} {157} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%
+
+
 
 \end{document}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 DEC 2019 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2019 18:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**reply-reviewers.tex
-(./reply-reviewers.tex
+**main-diff.tex
+(./main-diff.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -77,10 +77,10 @@ Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 Class revtex4-1 Info: Selecting journal pre on input line 7544.
 Class revtex4-1 Info: APS journal PRE selected on input line 7545.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/aps12pt4-1.rtx
-File: aps12pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
-Class revtex4-1 Info: RevTeX pointsize 12pt selected on input line 30.
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -195,44 +195,18 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count108
-\Gm@cntv=\count109
-\c@Gm@tempcnt=\count110
-\Gm@bindingoffset=\dimen113
-\Gm@wd@mp=\dimen114
-\Gm@odd@mp=\dimen115
-\Gm@even@mp=\dimen116
-\Gm@layoutwidth=\dimen117
-\Gm@layoutheight=\dimen118
-\Gm@layouthoffset=\dimen119
-\Gm@layoutvoffset=\dimen120
-\Gm@dimlist=\toks22
-)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip49
 \subfigcapskip=\skip50
-\subfigcaptopadj=\dimen121
+\subfigcaptopadj=\dimen113
 \subfigbottomskip=\skip51
-\subfigcapmargin=\dimen122
+\subfigcapmargin=\dimen114
 \subfiglabelskip=\skip52
-\c@subfigure=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@lotdepth=\count114
+\c@subfigure=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@lotdepth=\count111
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -249,6 +223,22 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
 
@@ -258,23 +248,23 @@ Package: expl3 2017/05/13 L3 programming layer (loader)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count115
-\l_tmpa_int=\count116
-\l_tmpb_int=\count117
-\g_tmpa_int=\count118
-\g_tmpb_int=\count119
-\g__prg_map_int=\count120
-\c_log_iow=\count121
-\l_iow_line_count_int=\count122
-\l__iow_line_target_int=\count123
-\l__iow_one_indent_int=\count124
-\l__iow_indent_int=\count125
-\c_zero_dim=\dimen123
-\c_max_dim=\dimen124
-\l_tmpa_dim=\dimen125
-\l_tmpb_dim=\dimen126
-\g_tmpa_dim=\dimen127
-\g_tmpb_dim=\dimen128
+\c_max_int=\count112
+\l_tmpa_int=\count113
+\l_tmpb_int=\count114
+\g_tmpa_int=\count115
+\g_tmpb_int=\count116
+\g__prg_map_int=\count117
+\c_log_iow=\count118
+\l_iow_line_count_int=\count119
+\l__iow_line_target_int=\count120
+\l__iow_one_indent_int=\count121
+\l__iow_indent_int=\count122
+\c_zero_dim=\dimen115
+\c_max_dim=\dimen116
+\l_tmpa_dim=\dimen117
+\l_tmpb_dim=\dimen118
+\g_tmpa_dim=\dimen119
+\g_tmpb_dim=\dimen120
 \c_zero_skip=\skip55
 \c_max_skip=\skip56
 \l_tmpa_skip=\skip57
@@ -287,52 +277,52 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count126
-\c__fp_leading_shift_int=\count127
-\c__fp_middle_shift_int=\count128
-\c__fp_trailing_shift_int=\count129
-\c__fp_big_leading_shift_int=\count130
-\c__fp_big_middle_shift_int=\count131
-\c__fp_big_trailing_shift_int=\count132
-\c__fp_Bigg_leading_shift_int=\count133
-\c__fp_Bigg_middle_shift_int=\count134
-\c__fp_Bigg_trailing_shift_int=\count135
-\c__fp_rand_size_int=\count136
-\c__fp_rand_four_int=\count137
-\c__fp_rand_eight_int=\count138
-\l__sort_length_int=\count139
-\l__sort_min_int=\count140
-\l__sort_top_int=\count141
-\l__sort_max_int=\count142
-\l__sort_true_max_int=\count143
-\l__sort_block_int=\count144
-\l__sort_begin_int=\count145
-\l__sort_end_int=\count146
-\l__sort_A_int=\count147
-\l__sort_B_int=\count148
-\l__sort_C_int=\count149
+\l_keys_choice_int=\count123
+\c__fp_leading_shift_int=\count124
+\c__fp_middle_shift_int=\count125
+\c__fp_trailing_shift_int=\count126
+\c__fp_big_leading_shift_int=\count127
+\c__fp_big_middle_shift_int=\count128
+\c__fp_big_trailing_shift_int=\count129
+\c__fp_Bigg_leading_shift_int=\count130
+\c__fp_Bigg_middle_shift_int=\count131
+\c__fp_Bigg_trailing_shift_int=\count132
+\c__fp_rand_size_int=\count133
+\c__fp_rand_four_int=\count134
+\c__fp_rand_eight_int=\count135
+\l__sort_length_int=\count136
+\l__sort_min_int=\count137
+\l__sort_top_int=\count138
+\l__sort_max_int=\count139
+\l__sort_true_max_int=\count140
+\l__sort_block_int=\count141
+\l__sort_begin_int=\count142
+\l__sort_end_int=\count143
+\l__sort_A_int=\count144
+\l__sort_B_int=\count145
+\l__sort_C_int=\count146
 \c_empty_box=\box43
 \l_tmpa_box=\box44
 \l_tmpb_box=\box45
 \g_tmpa_box=\box46
 \g_tmpb_box=\box47
-\l__box_top_dim=\dimen129
-\l__box_bottom_dim=\dimen130
-\l__box_left_dim=\dimen131
-\l__box_right_dim=\dimen132
-\l__box_top_new_dim=\dimen133
-\l__box_bottom_new_dim=\dimen134
-\l__box_left_new_dim=\dimen135
-\l__box_right_new_dim=\dimen136
+\l__box_top_dim=\dimen121
+\l__box_bottom_dim=\dimen122
+\l__box_left_dim=\dimen123
+\l__box_right_dim=\dimen124
+\l__box_top_new_dim=\dimen125
+\l__box_bottom_new_dim=\dimen126
+\l__box_left_new_dim=\dimen127
+\l__box_right_new_dim=\dimen128
 \l__box_internal_box=\box48
 \l__coffin_internal_box=\box49
-\l__coffin_internal_dim=\dimen137
-\l__coffin_offset_x_dim=\dimen138
-\l__coffin_offset_y_dim=\dimen139
-\l__coffin_x_dim=\dimen140
-\l__coffin_y_dim=\dimen141
-\l__coffin_x_prime_dim=\dimen142
-\l__coffin_y_prime_dim=\dimen143
+\l__coffin_internal_dim=\dimen129
+\l__coffin_offset_x_dim=\dimen130
+\l__coffin_offset_y_dim=\dimen131
+\l__coffin_x_dim=\dimen132
+\l__coffin_y_dim=\dimen133
+\l__coffin_x_prime_dim=\dimen134
+\l__coffin_y_prime_dim=\dimen135
 \c_empty_coffin=\box50
 \l__coffin_aligned_coffin=\box51
 \l__coffin_aligned_internal_coffin=\box52
@@ -341,28 +331,28 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_display_coffin=\box55
 \l__coffin_display_coord_coffin=\box56
 \l__coffin_display_pole_coffin=\box57
-\l__coffin_display_offset_dim=\dimen144
-\l__coffin_display_x_dim=\dimen145
-\l__coffin_display_y_dim=\dimen146
-\l__coffin_bounding_shift_dim=\dimen147
-\l__coffin_left_corner_dim=\dimen148
-\l__coffin_right_corner_dim=\dimen149
-\l__coffin_bottom_corner_dim=\dimen150
-\l__coffin_top_corner_dim=\dimen151
-\l__coffin_scaled_total_height_dim=\dimen152
-\l__coffin_scaled_width_dim=\dimen153
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
+\l__coffin_bounding_shift_dim=\dimen139
+\l__coffin_left_corner_dim=\dimen140
+\l__coffin_right_corner_dim=\dimen141
+\l__coffin_bottom_corner_dim=\dimen142
+\l__coffin_top_corner_dim=\dimen143
+\l__coffin_scaled_total_height_dim=\dimen144
+\l__coffin_scaled_width_dim=\dimen145
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count150
+\l__driver_color_stack_int=\count147
 \l__driver_tmp_box=\box58
 ))
 Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count151
-\g__xparse_grabber_int=\count152
-\l__xparse_m_args_int=\count153
-\l__xparse_mandatory_args_int=\count154
-\l__xparse_v_nesting_int=\count155
+\l__xparse_current_arg_int=\count148
+\g__xparse_grabber_int=\count149
+\l__xparse_m_args_int=\count150
+\l__xparse_mandatory_args_int=\count151
+\l__xparse_v_nesting_int=\count152
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1242,45 +1232,75 @@ Package: xparse 2017/05/13 L3 Experimental document command parser
 . Defining command \homework with sig. '' on line 764.
 .................................................
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 19.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 19.
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box59
+\UL@hyphenbox=\box60
+\UL@skip=\skip61
+\UL@hook=\toks22
+\UL@height=\dimen146
+\UL@pe=\count153
+\UL@pixel=\dimen147
+\ULC@box=\box61
+Package: ulem 2012/05/18
+\ULdepth=\dimen148
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/settobox.sty
+Package: settobox 2016/05/16 v1.5 Assign box dimensions to length registers (HO
+)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/letltxmacro.sty
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+)
+\DIFdelgraphicsbox=\box62
+\DIFdelgraphicswidth=\skip62
+\DIFdelgraphicsheight=\skip63
+LaTeX Info: Redefining \DIFaddbegin on input line 71.
+LaTeX Info: Redefining \DIFaddend on input line 72.
+LaTeX Info: Redefining \DIFdelbegin on input line 73.
+LaTeX Info: Redefining \DIFdelend on input line 74.
+LaTeX Info: Redefining \DIFaddbeginFL on input line 79.
+LaTeX Info: Redefining \DIFaddendFL on input line 80.
+LaTeX Info: Redefining \DIFdelbeginFL on input line 81.
+LaTeX Info: Redefining \DIFdelendFL on input line 82.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 85.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 85.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 19.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 19.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 19.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 85.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 85.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 85.
 
 
 LaTeX Warning: Unused global option(s):
-    [longbibliograpy].
+    [bibliograpy].
 
-(./reply-reviewers.aux)
-\openout1 = `reply-reviewers.aux'.
+(./main-diff.aux)
+\openout1 = `main-diff.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
-\scratchdimen=\dimen154
-\scratchbox=\box59
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\scratchcounter=\count154
+\scratchdimen=\dimen149
+\scratchbox=\box63
+\nofMPsegments=\count155
+\nofMParguments=\count156
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count159
-\MPscratchDim=\dimen155
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPscratchCnt=\count157
+\MPscratchDim=\dimen150
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -1289,6 +1309,9 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1328,64 +1351,402 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=25.25pt plus 4.0pt minus 12.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+\openout3 = `main-diffNotes.bib'.
 
-\openout3 = `reply-reviewersNotes.bib'.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `Woelfle2004' on page 1 undefined on input lin
+e 100.
+
+
+Package natbib Warning: Citation `Nakajima2005' on page 1 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `Tomita2005' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Rust2007' on page 1 undefined on input line 1
+02.
+
+
+Package natbib Warning: Citation `Barato2015' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Cao2015' on page 1 undefined on input line 10
+2.
+
+
+Package natbib Warning: Citation `Barato2017' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Fei2018' on page 1 undefined on input line 10
+2.
+
+
+Package natbib Warning: Citation `Wierenga2018' on page 1 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `Nguyen2018' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Marsland2019' on page 1 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `Barato2015' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Barato2017' on page 1 undefined on input line
+ 102.
+
+
+Package natbib Warning: Citation `Wierenga2018' on page 1 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `Marsland2019' on page 1 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 1 undefined on input l
+ine 114.
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] (./reply-reviewers.aux) ) 
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 123.
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 121--125
+|   []   |   []   |   []   []\OT1/cmr/m/n/10 such as that pic-tured in
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 121--125
+\OT1/cmr/m/n/10 Fig. 1[]a[]|   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 121--125
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 121--125
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 132.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 134.
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 132--135
+|   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+<fig-1.pdf, id=21, 231.86626pt x 160.6pt>
+File: fig-1.pdf Graphic file (type pdf)
+ <use fig-1.pdf>
+Package pdftex.def Info: fig-1.pdf used on input line 142.
+(pdftex.def)             Requested size: 246.0pt x 170.392pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 142--143
+ [][][] 
+ []
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 145.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 145.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 2 undefined on input l
+ine 153.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 153--153
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[2 <./fig-1.pdf>]
+
+Package natbib Warning: Citation `Barato2017' on page 3 undefined on input line
+ 161.
+
+
+Package natbib Warning: Citation `Rust2007' on page 3 undefined on input line 1
+61.
+
+
+Package natbib Warning: Citation `Novak2008' on page 3 undefined on input line 
+161.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 3 undefined on input l
+ine 164.
+
+
+Package natbib Warning: Citation `Note1' on page 3 undefined on input line 177.
+
+
+
+Package natbib Warning: Citation `Barato2017' on page 3 undefined on input line
+ 182.
+
+
+Package natbib Warning: Citation `Marsland2019' on page 3 undefined on input li
+ne 182.
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 176--183
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 3 undefined on input l
+ine 190.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 3 undefined on input l
+ine 190.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 3 undefined on input l
+ine 195.
+
+[3]
+
+LaTeX Warning: Reference `schematic' on page 4 undefined on input line 212.
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 212--213
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+
+Package natbib Warning: Citation `Murugan2012' on page 4 undefined on input lin
+e 214.
+
+
+Package natbib Warning: Citation `Budnar2019' on page 4 undefined on input line
+ 214.
+
+[4] <fig-2.pdf, id=293, 448.67625pt x 261.97874pt>
+File: fig-2.pdf Graphic file (type pdf)
+ <use fig-2.pdf>
+Package pdftex.def Info: fig-2.pdf used on input line 229.
+(pdftex.def)             Requested size: 246.0pt x 143.63704pt.
+
+Overfull \hbox (2.32828pt too wide) in paragraph at lines 236--244
+ []$[]$ 
+ []
+
+<fig-3.pdf, id=294, 156.585pt x 143.53625pt>
+File: fig-3.pdf Graphic file (type pdf)
+ <use fig-3.pdf>
+Package pdftex.def Info: fig-3.pdf used on input line 264.
+(pdftex.def)             Requested size: 246.0pt x 225.50789pt.
+ [5 <./fig-2.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 270.
+
+<fig-4.pdf, id=449, 378.41376pt x 292.09125pt>
+File: fig-4.pdf Graphic file (type pdf)
+ <use fig-4.pdf>
+Package pdftex.def Info: fig-4.pdf used on input line 277.
+(pdftex.def)             Requested size: 246.0pt x 189.88379pt.
+
+<fig-5.pdf, id=450, 398.48875pt x 295.1025pt>
+File: fig-5.pdf Graphic file (type pdf)
+ <use fig-5.pdf>
+Package pdftex.def Info: fig-5.pdf used on input line 288.
+(pdftex.def)             Requested size: 246.0pt x 182.17363pt.
+ [6 <./fig-3.pdf> <./fig-4.pdf>]
+
+Package natbib Warning: Citation `DelJunco2018b' on page 7 undefined on input l
+ine 293.
+
+<fig-6.pdf, id=830, 236.885pt x 158.5925pt>
+File: fig-6.pdf Graphic file (type pdf)
+ <use fig-6.pdf>
+Package pdftex.def Info: fig-6.pdf used on input line 299.
+(pdftex.def)             Requested size: 221.3985pt x 148.22997pt.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 7 undefined on input l
+ine 308.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 7 undefined on input l
+ine 310.
+
+
+Package natbib Warning: Citation `Pittayakanchit2018' on page 7 undefined on in
+put line 310.
+
+
+Package natbib Warning: Citation `Marsland2019' on page 7 undefined on input li
+ne 310.
+
+[7 <./fig-5.pdf> <./fig-6.pdf>]
+
+Package natbib Warning: Citation `Johnson2011' on page 8 undefined on input lin
+e 317.
+
+
+Package natbib Warning: Citation `Francois2012' on page 8 undefined on input li
+ne 317.
+
+
+Package natbib Warning: Citation `Paijmans2017' on page 8 undefined on input li
+ne 317.
+
+
+Package natbib Warning: Citation `Francois2012' on page 8 undefined on input li
+ne 317.
+
+
+Package natbib Warning: Citation `Hatakeyama2015' on page 8 undefined on input 
+line 317.
+
+[8]
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 366.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 368.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 375.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 379.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 391.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 391.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 393.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 404.
+
+
+Package natbib Warning: Citation `DelJunco2018b' on page 9 undefined on input l
+ine 418.
+
+
+Overfull \hbox (19.13826pt too wide) in paragraph at lines 424--424
+[] 
+ []
+
+[9]
+Underfull \hbox (badness 1552) in paragraph at lines 436--437
+[]\OT1/cmr/m/n/10 The prob-a-bil-ity of ob-serv-ing a par-tic-u-lar tra-jec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+\OT1/cmr/m/n/10 tory with tran-si-tions []|   []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+[][]|   []   []\OT1/cmr/m/n/10 oc-cur-ring at times
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 442--443
+[]\OT1/cmr/m/n/10 To ob-tain the first pas-sage time dis-tri-bu-tion
+ []
+
+LaTeX Font Info:    Try loading font information for U+bbm on input line 470.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+) [10]
+No file main-diff.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[11] (./main-diff.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 12672 strings out of 492995
- 220118 string characters out of 6132704
- 279601 words of memory out of 5000000
- 16151 multiletter control sequences out of 15000+600000
- 8005 words of font info for 29 fonts, out of 8000000 for 9000
+ 12556 strings out of 492995
+ 218087 string characters out of 6132704
+ 510212 words of memory out of 5000000
+ 15993 multiletter control sequences out of 15000+600000
+ 13016 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,38p,10391b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on reply-reviewers.pdf (5 pages, 104115 bytes).
+ 39i,14n,56p,10425b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/claradeljuncooffice/Library/texlive/2017/texmf-var/fonts/pk/ljfour/p
+ublic/bbm/bbm10.600pk></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cmextra/cmex9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb>
+Output written on main-diff.pdf (11 pages, 2293985 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 1365 PDF objects out of 1440 (max. 8388607)
+ 1071 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

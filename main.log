@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2019 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 DEC 2019 09:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1332,119 +1332,103 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Reference `model' on page 1 undefined on input line 44.
-
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<fig-1.pdf, id=16, 231.86626pt x 160.6pt>
+) [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<fig-1.pdf, id=15, 231.86626pt x 160.6pt>
 File: fig-1.pdf Graphic file (type pdf)
  <use fig-1.pdf>
-Package pdftex.def Info: fig-1.pdf used on input line 48.
+Package pdftex.def Info: fig-1.pdf used on input line 47.
 (pdftex.def)             Requested size: 246.0pt x 170.392pt.
  [2 <./fig-1.pdf>]
-
-LaTeX Warning: Reference `schematic' on page 3 undefined on input line 94.
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 96--97
+Underfull \hbox (badness 1199) in paragraph at lines 94--95
 \OT1/cmr/m/n/10 sage time (FPT) dis-tri-bu-tion across the dec-o-ra-tion
  []
 
-[3] <fig-2.pdf, id=289, 448.67625pt x 261.97874pt>
+[3] <fig-2.pdf, id=288, 448.67625pt x 261.97874pt>
 File: fig-2.pdf Graphic file (type pdf)
  <use fig-2.pdf>
-Package pdftex.def Info: fig-2.pdf used on input line 110.
+Package pdftex.def Info: fig-2.pdf used on input line 106.
 (pdftex.def)             Requested size: 246.0pt x 143.63704pt.
 
-Overfull \hbox (2.32828pt too wide) in paragraph at lines 117--125
+Overfull \hbox (2.32828pt too wide) in paragraph at lines 113--121
  []$[]$ 
  []
 
-<fig-3.pdf, id=290, 156.585pt x 143.53625pt>
+[4 <./fig-2.pdf>] <fig-3.pdf, id=443, 156.585pt x 143.53625pt>
 File: fig-3.pdf Graphic file (type pdf)
  <use fig-3.pdf>
-Package pdftex.def Info: fig-3.pdf used on input line 139.
+Package pdftex.def Info: fig-3.pdf used on input line 135.
 (pdftex.def)             Requested size: 246.0pt x 225.50789pt.
- [4 <./fig-2.pdf>]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 145.
-
-<fig-4.pdf, id=445, 378.41376pt x 292.09125pt>
+<fig-4.pdf, id=444, 378.41376pt x 292.09125pt>
 File: fig-4.pdf Graphic file (type pdf)
  <use fig-4.pdf>
-Package pdftex.def Info: fig-4.pdf used on input line 152.
+Package pdftex.def Info: fig-4.pdf used on input line 148.
 (pdftex.def)             Requested size: 246.0pt x 189.88379pt.
- [5 <./fig-3.pdf> <./fig-4.pdf>] <fig-5.pdf, id=825, 398.48875pt x 295.1025pt>
+ [5 <./fig-3.pdf> <./fig-4.pdf>] <fig-5.pdf, id=824, 398.48875pt x 295.1025pt>
 File: fig-5.pdf Graphic file (type pdf)
  <use fig-5.pdf>
-Package pdftex.def Info: fig-5.pdf used on input line 163.
+Package pdftex.def Info: fig-5.pdf used on input line 159.
 (pdftex.def)             Requested size: 246.0pt x 182.17363pt.
 
-<fig-6.pdf, id=826, 236.885pt x 158.5925pt>
+<fig-6.pdf, id=825, 236.885pt x 158.5925pt>
 File: fig-6.pdf Graphic file (type pdf)
  <use fig-6.pdf>
-Package pdftex.def Info: fig-6.pdf used on input line 174.
+Package pdftex.def Info: fig-6.pdf used on input line 170.
 (pdftex.def)             Requested size: 221.3985pt x 148.22997pt.
  [6 <./fig-5.pdf> <./fig-6.pdf>] [7]
-Underfull \hbox (badness 6316) in paragraph at lines 416--420
+Underfull \hbox (badness 6316) in paragraph at lines 413--417
  []\OT1/cmr/m/n/9 C. del Junco and S. Vaikun-tanathan,  (2018),
  []
 
 [8]
-Overfull \hbox (19.13826pt too wide) in paragraph at lines 569--569
+Overfull \hbox (19.13826pt too wide) in paragraph at lines 566--566
 [] 
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 587--588
+Underfull \hbox (badness 7451) in paragraph at lines 584--585
 []\OT1/cmr/m/n/10 To ob-tain the first pas-sage time dis-tri-bu-tion
  []
 
 [9]
-LaTeX Font Info:    Try loading font information for U+bbm on input line 615.
+LaTeX Font Info:    Try loading font information for U+bbm on input line 612.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 ) [10]
-(./main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./main.aux) ) 
 Here is how much of TeX's memory you used:
- 12473 strings out of 492995
- 217398 string characters out of 6132704
- 291729 words of memory out of 5000000
- 15922 multiletter control sequences out of 15000+600000
+ 12471 strings out of 492995
+ 217376 string characters out of 6132704
+ 290387 words of memory out of 5000000
+ 15920 multiletter control sequences out of 15000+600000
  12910 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,14n,53p,10420b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/claradeljuncooffice/Library/texlive/2017/texmf-var/fonts/pk/ljfour/p
-ublic/bbm/bbm10.600pk></usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cmextra/cmex9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (10 pages, 2255198 bytes).
+ </Users/claradeljuncooffice/Library/texlive/2017/texmf-var/fonts
+/pk/ljfour/public/bbm/bbm10.600pk></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on main.pdf (10 pages, 2252413 bytes).
 PDF statistics:
  1358 PDF objects out of 1440 (max. 8388607)
  1066 compressed objects within 11 object streams
